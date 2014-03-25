@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+
+"""setup.py: setuptools control."""
+
+
 import re
 from setuptools import setup
 
@@ -28,4 +32,3 @@ setup(
     author_email = "jgehrcke@googlemail.com",
     url = "http://gehrcke.de/2014/02/distributing-a-python-command-line-application",
     )
-
