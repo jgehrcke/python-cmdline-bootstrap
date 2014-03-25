@@ -6,4 +6,3 @@
 
 class Stuff(object):
     pass
-

@@ -5,7 +5,7 @@ from setuptools import setup
 
 version = re.search(
     '^__version__\s*=\s*"(.*)"',
-    open('bootstrap/main.py').read(),
+    open('bootstrap/bootstrap.py').read(),
     re.M
     ).group(1)
 
@@ -13,7 +13,7 @@ setup(
     name = "cmdline-bootstrap",
     packages = ["bootstrap"],
     entry_points = {
-        "console_scripts": ['bootstrap = bootstrap.main:main']
+        "console_scripts": ['bootstrap = bootstrap.bootstrap:main']
         },
     version = version,
     description = "Python command line application bare bones template.",
