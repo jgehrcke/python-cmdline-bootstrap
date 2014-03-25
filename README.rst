@@ -11,12 +11,11 @@ http://gehrcke.de/2014/02/distributing-a-python-command-line-application/
 Usage
 -----
 
-- Clone this repository.
-- Adopt the bootstrap structure for your project.
-- Obviously, rename all 'bootstrap' occurrences.
-- Adjust ``LICENSE``, ``README.rst``, and ``setup.py``.
-- A good project should have tests and documentation, so you might want to add
-  these.
+Clone this repository and adopt the bootstrap structure for your own project.
+This is just a starting point, but I hope a good one. From there on, you should
+read and follow http://python-packaging-user-guide.readthedocs.org/en/latest/,
+the definite resource on Python packaging.
+
 
 
 Behavior
