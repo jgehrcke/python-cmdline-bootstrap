@@ -7,8 +7,24 @@ released and distributed via setuptools/PyPI/pip for Python 2 and 3.
 Please have a look at the corresponding article:
 http://gehrcke.de/2014/02/distributing-a-python-command-line-application/
 
+
+Usage
+-----
+
+- Clone this repository.
+- Adopt the bootstrap structure for your project.
+- Obviously, rename all 'bootstrap' occurrences.
+- Adjust ``LICENSE``, ``README.rst``, and ``setup.py``.
+- A good project should have tests and documentation, so you might want to add
+  these.
+
+
+Behavior
+--------
+
 Flexible invocation
--------------------
+*******************
+
 The application can be run right from the source directory, in two different
 ways:
 
@@ -32,7 +48,8 @@ ways:
 
 
 Installation sets up bootstrap command
---------------------------------------
+**************************************
+
 Situation before installation::
 
     $ bootstrap
