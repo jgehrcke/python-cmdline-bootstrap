@@ -24,7 +24,7 @@ Behavior
 Flexible invocation
 *******************
 
-The application can be run right from the source directory, in two different
+The application can be run right from the source directory, in different
 ways:
 
 1) Treating the bootstrap directory as a package *and* as the main script::
@@ -35,8 +35,17 @@ ways:
     Stuff and Boo():
     <class 'bootstrap.stuff.Stuff'>
     <bootstrap.bootstrap.Boo object at 0x7f43d9f65a90>
+    
+2) Using ``setup.py develop`` (documented `here <https://setuptools.readthedocs.io/en/latest/setuptools.html#development-mode>`_)::
 
-2) Using the bootstrap-runner.py wrapper::
+    # This installs the bootstrap command linking back
+    # to the current checkout, quite neat for development!
+    $ python setup.py develop
+    ...
+    $ bootstrap arg1 arg2
+
+
+3) Using the bootstrap-runner.py wrapper::
 
     $ ./bootstrap-runner.py arg1 arg2
     Executing bootstrap version 0.2.0.
@@ -45,7 +54,7 @@ ways:
     <class 'bootstrap.stuff.Stuff'>
     <bootstrap.bootstrap.Boo object at 0x7f149554ead0>
 
-
+   
 Installation sets up bootstrap command
 **************************************
 
