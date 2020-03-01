@@ -13,7 +13,7 @@ Usage
 
 Clone this repository and adopt the bootstrap structure for your own project.
 This is just a starting point, but I hope a good one. From there on, you should
-read and follow http://python-packaging-user-guide.readthedocs.org/en/latest/,
+read and follow https://packaging.python.org/,
 the definite resource on Python packaging.
 
 
