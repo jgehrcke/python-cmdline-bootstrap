@@ -35,8 +35,8 @@ ways:
     Stuff and Boo():
     <class 'bootstrap.stuff.Stuff'>
     <bootstrap.bootstrap.Boo object at 0x7f43d9f65a90>
-    
-2) Using ``setup.py develop`` (documented `here <https://setuptools.readthedocs.io/en/latest/setuptools.html#development-mode>`_)::
+
+2) Using ``setup.py develop`` (documented `here <https://setuptools.pypa.io/en/latest/userguide/development_mode.html>`_)::
 
     # This installs the bootstrap command linking back
     # to the current checkout, quite neat for development!
@@ -54,7 +54,7 @@ ways:
     <class 'bootstrap.stuff.Stuff'>
     <bootstrap.bootstrap.Boo object at 0x7f149554ead0>
 
-   
+
 Installation sets up bootstrap command
 **************************************
 
